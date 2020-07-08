@@ -4,3 +4,11 @@ dependencies:
   - websockify
   - pip:
     - .
+name: base
+channels:
+  - defaults
+dependencies:
+  - spyder
+  - numpy
+  - pandas
+  - matplotlib
